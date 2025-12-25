@@ -1,0 +1,43 @@
+.experience-card {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2.5rem;
+}
+
+.role {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.company {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.experience-points {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experience-points li {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.experience-points li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--accent-cyan);
+    font-size: 1.2rem;
+}
+
+.experience-points strong {
+    color: var(--text-tertiary);
+    font-weight: 600;
+}

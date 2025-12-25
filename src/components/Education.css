@@ -1,0 +1,75 @@
+.education-card {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    padding: 2rem;
+}
+
+.degree {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.institution {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.education-details {
+    display: flex;
+    gap: 2rem;
+    color: var(--text-secondary);
+}
+
+.cgpa strong {
+    color: var(--accent-cyan);
+    font-size: 1.1rem;
+}
+
+.certifications-section,
+.activities-section {
+    margin-top: 3rem;
+}
+
+.subsection-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-tertiary);
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.cert-card {
+    padding: 1.25rem;
+    text-align: center;
+    font-weight: 500;
+    background: rgba(100, 255, 218, 0.05);
+    border-color: rgba(100, 255, 218, 0.15);
+}
+
+.activities-list {
+    list-style: none;
+    padding-left: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.activities-list li {
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    position: relative;
+    color: var(--text-secondary);
+}
+
+.activities-list li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--accent-cyan);
+    font-size: 1.2rem;
+}

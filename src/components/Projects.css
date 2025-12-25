@@ -1,0 +1,78 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Center the 4th card under the 2nd card */
+.projects-grid .project-card:nth-child(4) {
+    grid-column: 2 / 3;
+}
+
+.project-card {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-description {
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+    line-height: 1.7;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tech-tag {
+    background: rgba(127, 90, 240, 0.1);
+    color: var(--accent-purple);
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid rgba(127, 90, 240, 0.2);
+}
+
+.impact {
+    background: rgba(100, 255, 218, 0.05);
+    padding: 0.75rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 3px solid var(--accent-cyan);
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.impact strong {
+    color: var(--accent-cyan);
+    font-weight: 600;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid .project-card:nth-child(4) {
+        grid-column: 1;
+    }
+}

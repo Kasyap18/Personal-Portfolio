@@ -1,0 +1,15 @@
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-content p {
+    font-size: var(--font-size-md);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.about-content strong {
+    color: var(--text-tertiary);
+    font-weight: 600;
+}
