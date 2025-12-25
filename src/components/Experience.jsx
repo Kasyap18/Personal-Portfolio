@@ -7,7 +7,7 @@ function Experience() {
                 <h2 className="section-title">💼 Internship</h2>
                 <div className="experience-card card">
                     <h3 className="role gradient-text">AI / Generative AI Engineer Intern</h3>
-                    <h4 className="company">FastJobs99 – AI Recruitment Platform</h4>
+                    <h4 className="company">GenAI Lakes – AI Recruitment Platform</h4>
                     <ul className="experience-points">
                         <li>
                             Developed <strong>resume–job matching systems</strong> using NLP embeddings and scoring techniques
