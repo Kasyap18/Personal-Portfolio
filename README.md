@@ -1,16 +1,38 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website.
 
-Currently, two official plugins are available:
+This project showcases my **skills, projects, and experience** in a clean and interactive way.  
+It is built to represent my profile as a developer and to provide a quick overview of my work.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 👋 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hi, I’m **Kasyap**, a Computer Science student and aspiring **Software / AI Engineer**.  
+I’m passionate about building modern web applications and exploring **AI, Machine Learning, and Generative AI**.
 
-## Expanding the ESLint configuration
+This portfolio reflects my learning journey, technical skills, and the projects I’ve worked on.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack
+
+- **Frontend:** React.js, Vite
+- **Styling:** CSS
+- **Languages:** JavaScript, HTML
+- **Tools & Platforms:** Git, GitHub
+
+---
+
+## ✨ Features
+
+- Responsive and modern UI
+- Dedicated sections for:
+  - About Me
+  - Skills
+  - Projects
+  - Experience & Education
+  - Contact
+- Resume download option
+- Fast build and optimized performance using Vite
